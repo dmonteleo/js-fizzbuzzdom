@@ -1,0 +1,40 @@
+body{
+  background-color: #083b4c;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1389b2;
+  color: black;
+  width: 80px;
+  height: 80px;
+  margin: 12px;
+}
+
+.red {
+  background-color: #f0466f;
+}
+
+.green {
+  background-color: #0bd6a1;
+}
+
+.yellow {
+  background-color: #ffd166;
+}
